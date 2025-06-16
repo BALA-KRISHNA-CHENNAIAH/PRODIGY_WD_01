@@ -7,7 +7,7 @@ window.addEventListener("scroll", () => {
     body.style.backgroundColor = "lightgreen"; // Light blue when scrolled
     navbar.classList.add("scrolled");
   } else {
-    body.style.backgroundColor = "yellow"; // Default background
+    body.style.backgroundColor = "white"; // Default background
     navbar.classList.remove("scrolled");
   }
 });
